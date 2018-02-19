@@ -14,7 +14,7 @@ export default function reducer(
   action: actions.Action
 ): State {
   switch (action.type) {
-    case actions.FETCH_IMAGES:
+    case actions.FETCH_IMAGES_SUCCESS:
       return {
         ...state,
         images: action.payload,
